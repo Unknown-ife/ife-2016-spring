@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgb(220, 220, 220);
+}
+
+header {
+  background-color: rgb(7,103,200);
+  height: 60px;
+}
+
+header a, a:active {
+  color: #fff;
+  text-decoration: none;
+}
+
+.logo {
+  float: left;
+  padding: 0px 40px;
+  font-size: 40px;
+  font-family: cursive,LiSu,sans-serif;
+}
+
+.nav ul {
+  float: right;
+  font-size: 14px;
+  margin: 0px 40px;
+  line-height: 60px;
+}
+
+.nav li {
+  margin: 0px 10px;
+  display: inline-block;
+}
+
+.post, .pic, .sidebar {
+  width: 90%;
+  padding: 30px;
+  margin: 20px auto;
+  background-color: white;
+  border: thin solid rgb(203, 203, 203);
+  box-shadow:2px 2px 3px rgb(170,170,170);
+}
+
+.post .subtitle {
+  font-size: 18px;
+  color: rgb(121, 124, 128);
+}
+
+.post .post-info {
+  font-size: 14px;
+  color: rgb(121, 124, 128);
+}
+
+.post .content p {
+  text-indent: 2em;
+}
+
+.post .content ul {
+  list-style-type: none;
+}
+
+.post .content ul li {
+  margin: 10px 0px;
+}
+
+.post .content table {
+  width: 100%;
+  font-size: 13px;
+  border-collapse:collapse;
+  border: solid 1px rgb(170,170,170);
+}
+
+.post .content tr:last-child {
+  background-color: rgb(170,170,170);
+}
+
+.post .content tr th {
+  padding: 5px;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  background-color: rgb(18, 19, 17);
+}
+
+.post .content tr td {
+  padding: 5px;
+}
+
+.pic .pic-item {
+  margin: 20px;
+  width: 240px;
+  border: solid 1px rgb(170,170,170);
+}
+
+.pic .pic-item p {
+  text-align: center;
+}
+
+.pic .pic-item img {
+  width: 200px;
+  height: 130px;
+  margin: 0px 20px 20px;
+}
+
+.sidebar .content h2 {
+  padding: 0px 10px;
+  border-left: solid 3px rgb(170,170,170);
+}
+
+.sidebar .form-group {
+  margin: 20px 0px;
+}
+
+.sidebar .form-group label {
+  width: 30%;
+  float: left;
+  text-align: right;
+}
+
+.sidebar .form-error {
+  margin-left: 30%;
+  font-size: 14px;
+  color: rgb(170,170,170);
+}
+
+.sidebar input[type='submit'] {
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(28, 99, 221);
+}
+
+footer {
+  display: block;
+  height: 60px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+}
+
+footer p {
+  font-size: 14px;
+  text-align: center;
+  line-height: 60px;
+}
