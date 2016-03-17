@@ -2,9 +2,22 @@
   margin: 20px;
   padding: 20px;
   position: relative;
-  overflow: auto;
   border: 1px solid #999;
   background-color: #eee;
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
 }
 
 .logo {
