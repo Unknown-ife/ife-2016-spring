@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.box {
+  /*设置宽高，及颜色*/
+  width: 400px;
+  height: 200px;
+  background-color: #ccc;
+  /*定位居中，但是只是左上角居中*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /*矫正居中位置*/
+  margin-left: -200px;
+  margin-top: -100px;
+  /*隐藏超出部分*/
+  overflow: hidden;
+}
+
+.circle {
+  position: absolute;
+  width:100px;
+  height:100px;
+  background-color:#fc0;
+  /*圆角*/
+  border-radius:50%;
+}
+
+.circle-1 {
+  left: -50px;
+  top: -50px;
+}
+
+.circle-2 {
+  right: -50px;
+  bottom: -50px;
+}
