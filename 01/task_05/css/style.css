@@ -49,8 +49,8 @@ body {
 
 .content {
   margin-left: 20px;
-  margin-right: 340px;
-  min-width: 500px;
+  margin-right: 400px;
+  min-width: 440px;
 }
 
 .post, .pic, .sidebar {
@@ -126,20 +126,23 @@ body {
   position: absolute;
   right: 20px;
   top: 60px;
-  width: 240px;
+  width: 300px;
 }
 
-.sidebar .content h2 {
+.sidebar h2 {
+  font-size: 16px;
   padding: 0px 10px;
   border-left: solid 3px rgb(170,170,170);
 }
 
 .sidebar .form-group {
+  font-size: 14px;
+  line-height: 21px;
   margin: 20px 0px;
 }
 
 .sidebar .form-group label {
-  width: 30%;
+  width: 40%;
   float: left;
   text-align: right;
 }
@@ -172,7 +175,7 @@ body {
   line-height: 60px;
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 890px) {
   .content {
     margin-right: 20px;
   }
