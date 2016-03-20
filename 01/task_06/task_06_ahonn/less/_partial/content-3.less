@@ -1,0 +1,203 @@
+.content-3 {
+  overflow: hidden;
+  .left {
+    width: 415px;
+    float: left;
+
+    h2 {
+      color: #11456b;
+      font-weight: bold;
+      font-family: SimHei, sans-serif;
+      &.en {
+        font-size: 42px;
+        text-transform: uppercase;
+        span {
+          font-size: 72px;
+          color: #f5e327;
+          font-style: italic;
+          position: relative;
+          left: -10px;
+        }
+      }
+      &.zh {
+        font-size: 33px;
+      }
+    }
+
+    hr {
+      border: none;
+      border-top: 2px solid #000000;
+      margin: 20px 0px;
+    }
+
+    p {
+      font-size: 12px;
+      color: #767777;
+      line-height: 16px;
+      font-family: SimSun, sans-serif;
+      text-indent: 2em;
+      &.first {
+        text-indent: 0em;
+        span {
+          float: left;
+          position: relative;
+          top: 5px;
+          left: -3px;
+          font-size: 70px;
+          color: #f5e327;
+          line-height: 70px;
+          text-indent: 0em;
+          font-family: Microsoft YaHei;
+        }
+      }
+    }
+
+    img {
+      float: right;
+      width: 180px;
+      height: 300px;
+      margin: 5px;
+    }
+  }
+
+  .right {
+    float: right;
+    .right-top {
+      position: relative;
+      img {
+        width: 458px;
+        height: 275px;
+      }
+      .desc {
+        width: 458px;
+        height: 61px;
+        background-color: rgba(0, 0, 0, 0.5);;
+        position: absolute;
+        bottom: 0px;
+        font-family: Microsoft YaHei;
+        border-radius: 5px;
+
+        .banner {
+          height: 44px;
+          margin: 10px 40px;
+          border-left: 3px solid #72b16a;
+          .title {
+            margin: 10px 15px;
+            position: absolute;
+            font-size: 26px;
+            color: #ffffff;
+          }
+          .subtitle {
+            font-size: 12px;
+            color: #72b16a;
+            font-style: italic;
+          }
+        }
+      }
+    }
+
+    .right-bottom {
+      width: 389px;
+      height: 258px;
+      margin-top: 30px;
+      padding: 30px;
+      background-color: rgb(232, 242, 193);
+
+      .bottom-1 ul {
+        list-style: none;
+        color: #5a5b5b;
+        font-family: SimSun, sans-serif;
+
+        li {
+          font-size: 16px;
+          line-height: 20px;
+          margin-bottom: 20px;
+          text-align: left;
+
+          &::before {
+            content: "▴";
+            margin-right: 5px;
+          }
+
+          span {
+            font-size: 12px;
+            text-align: right;
+          }
+        }
+      }
+
+      .bottom-2 {
+        .bottom-left {
+          width: 260px;
+          height: 160px;
+          float: left;
+          background-color: #d45d5c;
+          color: #ffffff;
+          position: relative;
+          left: -30px;
+          .left {
+            font-size: 110px;
+            font-family: Microsoft YaHei;
+            position: absolute;
+            top: 30px;
+            left: 10px;
+          }
+          .right {
+            position: absolute;
+            top: 37px;
+            right: 0px;
+            height: 86px;
+            border-left: 2px solid #ffffff;
+            font-family: SimHei, sans-serif;
+            padding: 0px 10px;
+            p {
+              margin: 5px 0px;
+              font-size: 21px;
+              font-style: italic;
+              line-height: 24px;
+              text-transform: uppercase;
+            }
+            span {
+              font-size: 12px;
+              font-style: normal;
+              line-height: 6px;
+              text-transform: none;
+            }
+          }
+        }
+
+        .bottom-right {
+          width: 129px;
+          float: right;
+          position: relative;
+          top: 20px;
+          p {
+            font-size: 14px;
+            color: #5a5b5b;
+            font-family: SimHei, sans-serif;
+            font-style: italic;
+            line-height: 16px;
+            span {
+              font-size: 72px;
+              font-style: normal;
+              color: #d45d5c;
+              &.mark-left {
+                float: left;
+                width: 30px;
+                position: relative;
+                top: 7px;
+                left: -44px;
+              }
+              &.mark-right {
+                float: right;
+                position: relative;
+                top: 30px;
+                right: -30px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
