@@ -28,3 +28,4 @@ ife 2016 Spring Unknown (,,・ω・,,)
 
 - Task 14: [零基础JavaScript编码（二）](http://ife.baidu.com/task/detail?taskId=14)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/02/task_14/ahonn/index.html)
+/ [yzzting](http://unknown-ife.github.io/ife-2016-spring/02/task_14/yzzting/index.html)
