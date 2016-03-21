@@ -12,4 +12,5 @@ ife 2016 Spring Unknown (,,・ω・,,)
 
 - Task 5: [零基础HTML及CSS编码（二）](http://ife.baidu.com/task/detail?taskId=5) / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_05/ahonn)
 
-- Task 6: [通过HTML及CSS模拟报纸排版）](http://ife.baidu.com/task/detail?taskId=6) / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_06/ahonn)
+- Task 6: [通过HTML及CSS模拟报纸排版）](http://ife.baidu.com/task/detail?taskId=6) / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_06/ahonn)/ 
+[yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_06/yzzting)
