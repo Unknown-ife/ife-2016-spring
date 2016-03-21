@@ -42,6 +42,9 @@ var aqiData = [
     if (aqiData[i][1] > 60) {
       li += "<li>第" + (i+1) + "名：" + aqiData[i][0] + "，" + aqiData[i][1] + "</li>"
     }
+    else {
+      break;
+    }
   }
   list.innerHTML = li;
 })();
