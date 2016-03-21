@@ -6,7 +6,7 @@
 
     h2 {
       color: #11456b;
-      font-weight: bold;
+      font-weight: bolder;
       font-family: SimHei, sans-serif;
       &.en {
         font-size: 42px;
@@ -101,6 +101,7 @@
       height: 258px;
       margin-top: 30px;
       padding: 30px;
+      position: relative;
       background-color: rgb(232, 242, 193);
 
       .bottom-1 ul {
@@ -133,23 +134,26 @@
           float: left;
           background-color: #d45d5c;
           color: #ffffff;
-          position: relative;
-          left: -30px;
-          .left {
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+
+          .str-left {
+            display: block;
             font-size: 110px;
             font-family: Microsoft YaHei;
             position: absolute;
-            top: 30px;
+            top: 35px;
             left: 10px;
           }
-          .right {
-            position: absolute;
-            top: 37px;
-            right: 0px;
+          .str-right {
             height: 86px;
             border-left: 2px solid #ffffff;
             font-family: SimHei, sans-serif;
             padding: 0px 10px;
+            position: absolute;
+            top: 40px;
+            right: 0px;
             p {
               margin: 5px 0px;
               font-size: 21px;
