@@ -37,7 +37,7 @@ function getData() {
   var source = document.getElementById('source').children;
   for (var i = 0; i < source.length; i++) {
     var li = source[i].textContent;
-    data.push([li.slice(0, 2), li.slice(7, 9)]);
+    data.push([li.slice(0, 2), li.slice(-2)]);
   }
 
   /*
