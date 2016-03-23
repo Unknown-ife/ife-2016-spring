@@ -69,13 +69,14 @@
          * 格式见ul中的注释的部分
          */
         function render(data) {
+            var fList = document.getElementById('resort');
+            var num = ['一', '二', '三', '四', '五', '六', '七']
             for (var i = 0; i < data.length; i++) {
-                var num = ['一', '二', '三', '四', '五', '六', '七']
-                var fList = document.getElementById('resort');
                 var childList = document.createElement('li');
                 childList.innerHTML = "第" + num[i] + "名" + ": " + data[i][0] + "空气质量: <b>" + data[i][1] + "</b>";
                 fList.appendChild(childList);
             }
+            // resort.innerHTML = li;
         }
 
         function btnHandle() {
@@ -86,12 +87,11 @@
 
 
         function init() {
-
-            // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
-            var btn = document.getElementById('sort-btn');
-            btn.onclick = function() {
-                btnHandle();
-            }
+          // 在这下面给sort-btn绑定一个点击事件，点击时触发btnHandle函数
+          var btn = document.getElementById('sort-btn');
+          btn.onclick = function () {
+              btnHandle();
+          }
         }
 
         init();
