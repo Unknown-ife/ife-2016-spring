@@ -1,0 +1,153 @@
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html {
+  font-family: 'Microsoft Yahei';
+}
+body {
+  min-width: 1280px;
+}
+a {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 57px;
+  line-height: 55px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #fff;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+header .logo {
+  float: left;
+  margin-left: 60px;
+}
+header .logo img {
+  position: relative;
+  top: 5px;
+}
+header .logo span {
+  margin-left: 5px;
+  font-size: 21px;
+  color: #000;
+}
+header .nav {
+  float: right;
+  list-style: none;
+}
+header .nav .nav-item {
+  width: 60px;
+  display: inline-block;
+  margin-right: 40px;
+  text-align: center;
+}
+header .nav .nav-item.active {
+  border-bottom: 3px solid #e74f4d;
+}
+header .nav .nav-item.active a {
+  color: #e74f4d;
+}
+header .nav .nav-item a {
+  color: #787b83;
+  font-size: 15px;
+}
+header .nav .nav-item a:hover {
+  color: #e74f4d;
+}
+header .login {
+  float: right;
+  margin-right: 30px;
+}
+header .login img {
+  position: relative;
+  top: 2px;
+}
+header .login a {
+  font-size: 14px;
+  font-weight: bolder;
+  color: #e74f4d;
+}
+.banner {
+  height: 690px;
+  width: 100%;
+  background: url("../img/header-bg.png") no-repeat;
+  background-size: 100%;
+  overflow-y: hidden;
+  position: relative;
+}
+.banner .cover {
+  width: 100%;
+  height: inherit;
+  background-color: #000;
+  opacity: 0.2;
+}
+.banner .title {
+  position: absolute;
+  top: 200px;
+  left: 120px;
+  color: #fff;
+}
+.banner .title h2 {
+  font-size: 60px;
+  line-height: 100px;
+}
+.banner .title p {
+  font-size: 22px;
+  line-height: 36px;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+.banner .start {
+  width: 330px;
+  height: 60px;
+  background-color: #e74f4d;
+  margin-top: 60px;
+  text-align: center;
+  line-height: 60px;
+}
+.banner .start span {
+  color: #fff;
+  font-size: 32px;
+  letter-spacing: 5px;
+}
+.desc {
+  height: 250px;
+  width: 100%;
+}
+.desc .desc-item {
+  float: left;
+  width: 25%;
+  text-align: center;
+}
+.desc .desc-item img {
+  margin: 45px auto;
+}
+.desc .desc-item .content {
+  height: 52px;
+  color: #777777;
+  font-size: 14px;
+  line-height: 16px;
+  border-right: 2px solid #777777;
+}
+.desc .desc-item .no-border {
+  border-right: none;
+}
+.divider {
+  width: 100%;
+  height: 360px;
+  text-align: center;
+  background-color: #ededed;
+}
+.divider img {
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.divider h2 {
+  color: #a6a6a6;
+  font-size: 50px;
+}
