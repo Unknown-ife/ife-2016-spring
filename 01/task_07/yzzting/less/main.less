@@ -13,6 +13,12 @@ body {
     min-width: 1100px;
     margin: 0 auto;
 }
+.lineStyle {
+    width: 37px;
+    height: 2px;
+    background: #fff;
+    margin: 10px auto;
+}
 .nav {
     height: 60px;
     width: auto;
@@ -118,7 +124,7 @@ body {
             margin: 80px auto 45px;
         }
         h1 {
-            font: 54px "SimHei";
+            font: 54px;
             color: #867e7a;
         }
     }
@@ -136,12 +142,6 @@ body {
             margin-top: 20px;
             font-size: 12px;
             font-weight: 100;
-        }
-        .lineStyle {
-            width: 37px;
-            height: 2px;
-            background: #fff;
-            margin: 10px auto;
         }
         .search {
             display: inline-block;
@@ -184,10 +184,10 @@ body {
         text-align: center;
         p {
             font-size: 12px;
-            margin: 11px 0 8px 0;
+            margin: 11px 0 8px;
             color: #786f6c;
         }
-        h4{
+        h4 {
             font-style: normal;
             margin-top: 17px;
         }
@@ -204,7 +204,6 @@ body {
                 font-size: 16px;
                 color: #323333;
             }
-
         }
         .p7 {
             h4 {
@@ -213,11 +212,328 @@ body {
                 margin-left: 23px;
             }
         }
-        .p8{
+        .p8 {
             margin-left: 33px;
         }
-        .p9{
+        .p9 {
             margin-left: 36px;
         }
+    }
+    .sixthSection {
+        width: 100%;
+        display: inline-block;
+        position: relative;
+        .topPhoto {
+            background-image: url("../img/p10.png");
+            height: 570px;
+            width: 66.6%;
+            background-size: 100% 100%;
+            color: #fff;
+            text-align: center;
+            font-style: normal;
+            h2 {
+                font-size: 42px;
+                padding-top: 140px;
+            }
+            h1 {
+                font-size: 158px;
+                font-family: 'Microsoft YaHei';
+            }
+            p {
+                font-size: 24px;
+                line-height: 200%;
+            }
+            .triangle-left {
+                position: relative;
+                top: -41%;
+                float: right;
+                width: 0;
+                height: 0;
+                border-top: 20px solid transparent;
+                border-right: 40px solid #fff;
+                border-bottom: 20px solid transparent;
+            }
+        }
+        .rightTitle {
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 33.3%;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            margin: 130px 0;
+            .content {
+                width: 285px;
+                height: 300px;
+            }
+            h1 span {
+                color: #e74f47;
+            }
+            p {
+                color: #aaaaaa;
+                font-size: 12px;
+                width: 283px;
+                line-height: 24px;
+                text-align: left;
+                margin: 37px 0 49px;
+            }
+            .moreBtn {
+                border: 1px solid #e74f47;
+                width: 104px;
+                height: 33px;
+                color: #e74f47;
+                background: transparent;
+                display: inline-block;
+                &:hover {
+                    background: #e74f47;
+                    color: #fff;
+                }
+            }
+            ul {
+                display: flex;
+                justify-content: center;
+                li {
+                    width: 10px;
+                    height: 10px;
+                    background: #ccc;
+                    border-radius: 10px;
+                    float: left;
+                    margin: 30px 12px 0 14px;
+                    cursor: pointer;
+                }
+            }
+        }
+        .bottomPhoto {
+            width: 100%;
+            .moreLink {
+                width: 165px;
+                height: 45px;
+                background: transparent;
+                border: 1px solid #fff;
+                margin-top: 33px;
+                color: #fff;
+                font-size: 15px;
+            }
+            p {
+                margin-top: 130px;
+                color: #fff;
+                font-size: 22px;
+                line-height: 30px;
+            }
+            .leftTitle {
+                width: 33%;
+                height: 518px;
+                display: inline-block;
+                background: #e74f47;
+                text-align: center;
+                overflow: hidden;
+                .moreLink {
+                    &:hover {
+                        background: #fff;
+                        color: #e74f47;
+                    }
+                }
+            }
+            .conTitle {
+                overflow: hidden;
+                width: 33%;
+                height: 518px;
+                display: inline-block;
+                text-align: center;
+                p {
+                    color: #000;
+                }
+                .lineStyle {
+                    background: #ccc;
+                }
+                .moreLink {
+                    color: #e74f47;
+                    border: 1px solid #e47f47;
+                    &:hover {
+                        background: #e47f47;
+                        color: #fff;
+                    }
+                }
+            }
+            .rightPhoto {
+                display: inline-block;
+                width: 33%;
+                height: 518px;
+                background-image: url("../img/p11.png");
+                background-size: 100% 100%;
+                margin-left: -8px;
+                .triangle-right {
+                    position: absolute;
+                    top: 74%;
+                    width: 0;
+                    height: 0;
+                    border-top: 20px solid transparent;
+                    border-left: 40px solid #fff;
+                    border-bottom: 20px solid transparent;
+                }
+            }
+        }
+    }
+    .seventhSection {
+        width: 100%;
+        height: 751px;
+        .topTitle {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            height: 280px;
+            .titleContent {
+                .lineStyle {
+                    background: #e47f74;
+                }
+                p {
+                    font-size: 12px;
+                    color: #aaa;
+                }
+            }
+        }
+        .formBlock {
+            height: 471px;
+            width: 63%;
+            margin: 0 auto;
+            a {
+                float: right;
+                color: rgb(18, 18, 16);
+                font-size: 18px;
+            }
+            h4 {
+                margin: 24px 0;
+                font: normal 14px "SimHei";
+                color: #333;
+            }
+            p {
+                margin: 30px 0 5px;
+                color: #aaa;
+            }
+            .more {
+                position: absolute;
+                right: 14px;
+                .moreD {
+                    display: inline-block;
+                }
+            }
+            .arrow {
+                margin-bottom: 7px;
+                display: inline-block;
+                width: 5px;
+                height: 5px;
+                border-right: 2px solid #aaa;
+                border-bottom: 2px solid #aaa;
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                transform: rotate(45deg);
+            }
+            .protocol {
+                width: 33%;
+                height: 365px;
+                float: left;
+                position: relative;
+            }
+            .rightForm {
+                width: 66%;
+                height: 365px;
+                float: right;
+                label {
+                    position: relative;
+                }
+                span {
+                    color: #555;
+                    position: absolute;
+                    top: 0;
+                    left: 20px;
+                    font-size: 14px;
+                }
+                input {
+                    border: none;
+                    width: 320px;
+                    height: 45px;
+                    background: #ededee;
+                    margin: 6px 8px;
+                    border-radius: 5px;
+                    padding-left: 55px;
+                }
+                textarea {
+                    border: none;
+                    background: #ededee;
+                    width: 98%;
+                    height: 120px;
+                    margin: 15px 0 0 8px;
+                    padding-top: 8px;
+                }
+                .subInput {
+                    width: 98%;
+                    padding-left: 0;
+                    cursor: pointer;
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+    .eightSection {
+        background: #32353e;
+        width: 100%;
+        height: 360px;
+        color: #fff;
+        text-align: center;
+        h2 {
+            padding-top: 90px;
+        }
+        .searchText {
+            width: 510px;
+            height: 40px;
+            margin-top: 30px;
+            border: none;
+        }
+        .submitBtn {
+            height: 40px;
+            width: 80px;
+            margin-left: -9px;
+            border: none;
+            background: #ccc;
+        }
+        ul {
+            display: flex;
+            justify-content: center;
+            margin: 38px 0 0;
+            li {
+                float: left;
+                a {
+                    color: #fff;
+                    margin-left: 30px;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+footer {
+    width: 100%;
+    height: 58px;
+    background: #2f3038;
+    position: relative;
+    a {
+        color: #fff;
+        font-size: 12px;
+        font-family: "SimSun";
+    }
+    .copyRight {
+        position: absolute;
+        left: 100px;
+        bottom: 15px;
+    }
+    .back-top {
+        position: absolute;
+        right: 40px;
+        bottom: 15px;
     }
 }

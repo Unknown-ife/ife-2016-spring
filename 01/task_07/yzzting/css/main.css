@@ -12,6 +12,12 @@ body {
   min-width: 1100px;
   margin: 0 auto;
 }
+.lineStyle {
+  width: 37px;
+  height: 2px;
+  background: #fff;
+  margin: 10px auto;
+}
 .nav {
   height: 60px;
   width: auto;
@@ -119,7 +125,7 @@ body {
   margin: 80px auto 45px;
 }
 .container .thirdSelect h1 {
-  font: 54px "SimHei";
+  font: 54px;
   color: #867e7a;
 }
 .container .fourSelect {
@@ -137,12 +143,6 @@ body {
   margin-top: 20px;
   font-size: 12px;
   font-weight: 100;
-}
-.container .fourSelect .lineStyle {
-  width: 37px;
-  height: 2px;
-  background: #fff;
-  margin: 10px auto;
 }
 .container .fourSelect .search {
   display: inline-block;
@@ -185,7 +185,7 @@ body {
 }
 .container .fifthSection p {
   font-size: 12px;
-  margin: 11px 0 8px 0;
+  margin: 11px 0 8px;
   color: #786f6c;
 }
 .container .fifthSection h4 {
@@ -216,4 +216,317 @@ body {
 }
 .container .fifthSection .p9 {
   margin-left: 36px;
+}
+.container .sixthSection {
+  width: 100%;
+  display: inline-block;
+  position: relative;
+}
+.container .sixthSection .topPhoto {
+  background-image: url("../img/p10.png");
+  height: 570px;
+  width: 66.6%;
+  background-size: 100% 100%;
+  color: #fff;
+  text-align: center;
+  font-style: normal;
+}
+.container .sixthSection .topPhoto h2 {
+  font-size: 42px;
+  padding-top: 140px;
+}
+.container .sixthSection .topPhoto h1 {
+  font-size: 158px;
+  font-family: 'Microsoft YaHei';
+}
+.container .sixthSection .topPhoto p {
+  font-size: 24px;
+  line-height: 200%;
+}
+.container .sixthSection .topPhoto .triangle-left {
+  position: relative;
+  top: -41%;
+  float: right;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 40px solid #fff;
+  border-bottom: 20px solid transparent;
+}
+.container .sixthSection .rightTitle {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 33.3%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin: 130px 0;
+}
+.container .sixthSection .rightTitle .content {
+  width: 285px;
+  height: 300px;
+}
+.container .sixthSection .rightTitle h1 span {
+  color: #e74f47;
+}
+.container .sixthSection .rightTitle p {
+  color: #aaaaaa;
+  font-size: 12px;
+  width: 283px;
+  line-height: 24px;
+  text-align: left;
+  margin: 37px 0 49px;
+}
+.container .sixthSection .rightTitle .moreBtn {
+  border: 1px solid #e74f47;
+  width: 104px;
+  height: 33px;
+  color: #e74f47;
+  background: transparent;
+  display: inline-block;
+}
+.container .sixthSection .rightTitle .moreBtn:hover {
+  background: #e74f47;
+  color: #fff;
+}
+.container .sixthSection .rightTitle ul {
+  display: flex;
+  justify-content: center;
+}
+.container .sixthSection .rightTitle ul li {
+  width: 10px;
+  height: 10px;
+  background: #ccc;
+  border-radius: 10px;
+  float: left;
+  margin: 30px 12px 0 14px;
+  cursor: pointer;
+}
+.container .sixthSection .bottomPhoto {
+  width: 100%;
+}
+.container .sixthSection .bottomPhoto .moreLink {
+  width: 165px;
+  height: 45px;
+  background: transparent;
+  border: 1px solid #fff;
+  margin-top: 33px;
+  color: #fff;
+  font-size: 15px;
+}
+.container .sixthSection .bottomPhoto p {
+  margin-top: 130px;
+  color: #fff;
+  font-size: 22px;
+  line-height: 30px;
+}
+.container .sixthSection .bottomPhoto .leftTitle {
+  width: 33%;
+  height: 518px;
+  display: inline-block;
+  background: #e74f47;
+  text-align: center;
+  overflow: hidden;
+}
+.container .sixthSection .bottomPhoto .leftTitle .moreLink:hover {
+  background: #fff;
+  color: #e74f47;
+}
+.container .sixthSection .bottomPhoto .conTitle {
+  overflow: hidden;
+  width: 33%;
+  height: 518px;
+  display: inline-block;
+  text-align: center;
+}
+.container .sixthSection .bottomPhoto .conTitle p {
+  color: #000;
+}
+.container .sixthSection .bottomPhoto .conTitle .lineStyle {
+  background: #ccc;
+}
+.container .sixthSection .bottomPhoto .conTitle .moreLink {
+  color: #e74f47;
+  border: 1px solid #e47f47;
+}
+.container .sixthSection .bottomPhoto .conTitle .moreLink:hover {
+  background: #e47f47;
+  color: #fff;
+}
+.container .sixthSection .bottomPhoto .rightPhoto {
+  display: inline-block;
+  width: 33%;
+  height: 518px;
+  background-image: url("../img/p11.png");
+  background-size: 100% 100%;
+  margin-left: -8px;
+}
+.container .sixthSection .bottomPhoto .rightPhoto .triangle-right {
+  position: absolute;
+  top: 74%;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-left: 40px solid #fff;
+  border-bottom: 20px solid transparent;
+}
+.container .seventhSection {
+  width: 100%;
+  height: 751px;
+}
+.container .seventhSection .topTitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 280px;
+}
+.container .seventhSection .topTitle .titleContent .lineStyle {
+  background: #e47f74;
+}
+.container .seventhSection .topTitle .titleContent p {
+  font-size: 12px;
+  color: #aaa;
+}
+.container .seventhSection .formBlock {
+  height: 471px;
+  width: 63%;
+  margin: 0 auto;
+}
+.container .seventhSection .formBlock a {
+  float: right;
+  color: #121210;
+  font-size: 18px;
+}
+.container .seventhSection .formBlock h4 {
+  margin: 24px 0;
+  font: normal 14px "SimHei";
+  color: #333;
+}
+.container .seventhSection .formBlock p {
+  margin: 30px 0 5px;
+  color: #aaa;
+}
+.container .seventhSection .formBlock .more {
+  position: absolute;
+  right: 14px;
+}
+.container .seventhSection .formBlock .more .moreD {
+  display: inline-block;
+}
+.container .seventhSection .formBlock .arrow {
+  margin-bottom: 7px;
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  border-right: 2px solid #aaa;
+  border-bottom: 2px solid #aaa;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.container .seventhSection .formBlock .protocol {
+  width: 33%;
+  height: 365px;
+  float: left;
+  position: relative;
+}
+.container .seventhSection .formBlock .rightForm {
+  width: 66%;
+  height: 365px;
+  float: right;
+}
+.container .seventhSection .formBlock .rightForm label {
+  position: relative;
+}
+.container .seventhSection .formBlock .rightForm span {
+  color: #555;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  font-size: 14px;
+}
+.container .seventhSection .formBlock .rightForm input {
+  border: none;
+  width: 320px;
+  height: 45px;
+  background: #ededee;
+  margin: 6px 8px;
+  border-radius: 5px;
+  padding-left: 55px;
+}
+.container .seventhSection .formBlock .rightForm textarea {
+  border: none;
+  background: #ededee;
+  width: 98%;
+  height: 120px;
+  margin: 15px 0 0 8px;
+  padding-top: 8px;
+}
+.container .seventhSection .formBlock .rightForm .subInput {
+  width: 98%;
+  padding-left: 0;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.container .eightSection {
+  background: #32353e;
+  width: 100%;
+  height: 360px;
+  color: #fff;
+  text-align: center;
+}
+.container .eightSection h2 {
+  padding-top: 90px;
+}
+.container .eightSection .searchText {
+  width: 510px;
+  height: 40px;
+  margin-top: 30px;
+  border: none;
+}
+.container .eightSection .submitBtn {
+  height: 40px;
+  width: 80px;
+  margin-left: -9px;
+  border: none;
+  background: #ccc;
+}
+.container .eightSection ul {
+  display: flex;
+  justify-content: center;
+  margin: 38px 0 0;
+}
+.container .eightSection ul li {
+  float: left;
+}
+.container .eightSection ul li a {
+  color: #fff;
+  margin-left: 30px;
+  font-size: 30px;
+}
+footer {
+  width: 100%;
+  height: 58px;
+  background: #2f3038;
+  position: relative;
+}
+footer a {
+  color: #fff;
+  font-size: 12px;
+  font-family: "SimSun";
+}
+footer .copyRight {
+  position: absolute;
+  left: 100px;
+  bottom: 15px;
+}
+footer .back-top {
+  position: absolute;
+  right: 40px;
+  bottom: 15px;
 }
