@@ -1,0 +1,212 @@
+.posters {
+  width: 100%;
+  height: 1090px;
+  .posters-top {
+    height: 565px;
+    overflow: auto;
+
+    .top-left {
+      width: 67%;
+      height: inherit;
+      float: left;
+      position: relative;
+      background: url("../img/posters-bg.png") no-repeat;
+      background-size: 100%;
+      text-align: center;
+      color: #fff;
+      &::after {
+        content: "";
+        margin-top: -10px;
+        position: absolute;
+        top: 50%;
+        right: 0px;
+        border-style: solid;
+        border-width: 13px 25px 13px 0px;
+        border-color: transparent #fff transparent;
+      }
+      .content {
+        position: relative;
+        top: 125px;
+        .title-zh {
+          font-size: 48px;
+          margin: 0px;
+        }
+        .title-en {
+          font-size: 160px;
+          margin: 0px;
+        }
+        .location {
+          font-size: 22px;
+          margin-bottom: 20px;
+        }
+        .time {
+          font-size: 22px;
+        }
+      }
+    }
+
+    .top-right {
+      width: 33%;
+      float: right;
+      padding: 125px 70px;
+      box-sizing: border-box;
+      .content {
+        .title {
+          font-size: 22px;
+          text-align: center;
+          margin: 30px 0px;
+          .new-world::after {
+            content: "";
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            position: relative;
+            top: 2px;
+            background: url("../img/new-world.png");
+          }
+          .num {
+            color: #e7504d;
+            position: relative;
+            top: 2px;
+          }
+        }
+        p {
+          font-size: 8px;
+          line-height: 30px;
+          color: #c9c9c9;
+        }
+        a {
+          text-align: center;
+          font-size: 14px;
+          color: #e46669;
+          .more {
+            width: 105px;
+            height: 30px;
+            margin-left: 50%;
+            margin-top: 45px;
+            position: relative;
+            left: -52px;
+            line-height: 30px;
+            border: 1px solid #e46669;
+            &:hover {
+              transition: 0.3s;
+              color: #fff;
+              background-color: #e46669;
+              border: 1px solid #fff;
+            }
+          }
+        }
+      }
+      .page-tab {
+        list-style: none;
+        text-align: center;
+        position: relative;
+        top: 25px;
+        li {
+          display: inline-block;
+          width: 8px;
+          height: 8px;
+          margin: 0px 5px;
+          border-radius: 50%;
+          border: 2px solid #929292;
+          &.active {
+            background-color: #929292;
+          }
+        }
+      }
+    }
+  }
+
+  .posters-bottom {
+    height: 525px;
+    position: relative;
+    overflow: auto;
+    text-align: center;
+    p {
+      font-size: 20px;
+      line-height: 30px;
+      margin-top: 170px;
+      &::after {
+        content: "";
+        display: block;
+        width: 30px;
+        position: relative;
+        left: 50%;
+        margin: 15px auto 20px -15px;
+      }
+    }
+    .more {
+      width: 170px;
+      height: 40px;
+      display: block;
+      line-height: 40px;
+      font-size: 22px;
+      position: relative;
+      top: 10px;
+      left: 50%;
+      margin-left: -85px;
+    }
+    .bottom-left {
+      width: 33%;
+      height: inherit;
+      float: left;
+      background-color: #e74f4d;
+      p {
+        color: #fff;
+        &::after {
+        border: 1px solid #fff;
+        }
+      }
+      .more {
+        color: #fff;
+        border: 1px solid #fff;
+        &:hover {
+          transition: 0.3s;
+          color: #e74f4d;
+          background-color: #fff;
+          border: 1px solid #e74f4d;
+        }
+      }
+    }
+    .bottom-mid {
+      width: 34%;
+      height: inherit;
+      position: absolute;
+      left: 33%;
+      p {
+        color: #000;
+        &::after {
+        border: 1px solid #c7c7c7;
+        }
+      }
+      .more {
+        color: #e74f4d;
+        border: 1px solid #e74f4d;
+        &:hover {
+          transition: 0.3s;
+          color: #fff;
+          background-color: #e46669;
+          border: 1px solid #fff;
+        }
+      }
+    }
+    .bottom-right {
+      width: 33%;
+      height: inherit;
+      float: right;
+      position: relative;
+      background: url("../img/posters-bg2.png") no-repeat;
+      background-size: 100%;
+      &::after {
+        content: "";
+        margin-top: -10px;
+        position: absolute;
+        top: 50%;
+        left: 0px;
+        border-style: solid;
+        border-width: 13px 0px 13px 25px;
+        border-color: transparent #fff transparent;
+      }
+    }
+  }
+}

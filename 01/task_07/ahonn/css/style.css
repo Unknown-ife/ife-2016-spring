@@ -4,7 +4,7 @@
   padding: 0px;
 }
 html {
-  font-family: 'Microsoft Yahei';
+  font-family: "Microsoft YaHei";
 }
 body {
   min-width: 1280px;
@@ -151,7 +151,7 @@ header .login a {
   font-size: 50px;
 }
 .search {
-  height: 340px;
+  height: 335px;
   background: url('../img/search-bg.png') no-repeat;
   background-size: 100%;
   position: relative;
@@ -242,4 +242,368 @@ header .login a {
   color: #fff;
   background-color: #bf4f49;
   letter-spacing: 20px;
+}
+.activity {
+  height: 600px;
+  position: relative;
+  background-color: #f7f7f7;
+}
+.activity .activity-list {
+  overflow: auto;
+  position: absolute;
+  left: -490px;
+  margin-left: 50%;
+  padding-top: 120px;
+}
+.activity .activity-list .activity-item {
+  float: left;
+  margin: 0px 20px;
+  text-align: center;
+}
+.activity .activity-list .activity-item .title {
+  font-size: 16px;
+  line-height: 30px;
+}
+.activity .activity-list .activity-item .subtitle {
+  color: #919191;
+  font-size: 11px;
+  line-height: 20px;
+}
+.activity .activity-list .activity-item img {
+  width: 210px;
+  height: 320px;
+  padding: 10px 5px;
+  border: 1px solid #e1e1e1;
+  background-color: #fff;
+}
+.activity .activity-list .activity-nice .title {
+  font-size: 24px;
+  letter-spacing: 30px;
+  position: relative;
+  left: 15px;
+}
+.posters {
+  width: 100%;
+  height: 1090px;
+}
+.posters .posters-top {
+  height: 565px;
+  overflow: auto;
+}
+.posters .posters-top .top-left {
+  width: 67%;
+  height: inherit;
+  float: left;
+  position: relative;
+  background: url("../img/posters-bg.png") no-repeat;
+  background-size: 100%;
+  text-align: center;
+  color: #fff;
+}
+.posters .posters-top .top-left::after {
+  content: "";
+  margin-top: -10px;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  border-style: solid;
+  border-width: 13px 25px 13px 0px;
+  border-color: transparent #fff transparent;
+}
+.posters .posters-top .top-left .content {
+  position: relative;
+  top: 125px;
+}
+.posters .posters-top .top-left .content .title-zh {
+  font-size: 48px;
+  margin: 0px;
+}
+.posters .posters-top .top-left .content .title-en {
+  font-size: 160px;
+  margin: 0px;
+}
+.posters .posters-top .top-left .content .location {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.posters .posters-top .top-left .content .time {
+  font-size: 22px;
+}
+.posters .posters-top .top-right {
+  width: 33%;
+  float: right;
+  padding: 125px 70px;
+  box-sizing: border-box;
+}
+.posters .posters-top .top-right .content .title {
+  font-size: 22px;
+  text-align: center;
+  margin: 30px 0px;
+}
+.posters .posters-top .top-right .content .title .new-world::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 2px;
+  background: url("../img/new-world.png");
+}
+.posters .posters-top .top-right .content .title .num {
+  color: #e7504d;
+  position: relative;
+  top: 2px;
+}
+.posters .posters-top .top-right .content p {
+  font-size: 8px;
+  line-height: 30px;
+  color: #c9c9c9;
+}
+.posters .posters-top .top-right .content a {
+  text-align: center;
+  font-size: 14px;
+  color: #e46669;
+}
+.posters .posters-top .top-right .content a .more {
+  width: 105px;
+  height: 30px;
+  margin-left: 50%;
+  margin-top: 45px;
+  position: relative;
+  left: -52px;
+  line-height: 30px;
+  border: 1px solid #e46669;
+}
+.posters .posters-top .top-right .content a .more:hover {
+  transition: 0.3s;
+  color: #fff;
+  background-color: #e46669;
+  border: 1px solid #fff;
+}
+.posters .posters-top .top-right .page-tab {
+  list-style: none;
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+.posters .posters-top .top-right .page-tab li {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0px 5px;
+  border-radius: 50%;
+  border: 2px solid #929292;
+}
+.posters .posters-top .top-right .page-tab li.active {
+  background-color: #929292;
+}
+.posters .posters-bottom {
+  height: 525px;
+  position: relative;
+  overflow: auto;
+  text-align: center;
+}
+.posters .posters-bottom p {
+  font-size: 20px;
+  line-height: 30px;
+  margin-top: 170px;
+}
+.posters .posters-bottom p::after {
+  content: "";
+  display: block;
+  width: 30px;
+  position: relative;
+  left: 50%;
+  margin: 15px auto 20px -15px;
+}
+.posters .posters-bottom .more {
+  width: 170px;
+  height: 40px;
+  display: block;
+  line-height: 40px;
+  font-size: 22px;
+  position: relative;
+  top: 10px;
+  left: 50%;
+  margin-left: -85px;
+}
+.posters .posters-bottom .bottom-left {
+  width: 33%;
+  height: inherit;
+  float: left;
+  background-color: #e74f4d;
+}
+.posters .posters-bottom .bottom-left p {
+  color: #fff;
+}
+.posters .posters-bottom .bottom-left p::after {
+  border: 1px solid #fff;
+}
+.posters .posters-bottom .bottom-left .more {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.posters .posters-bottom .bottom-left .more:hover {
+  transition: 0.3s;
+  color: #e74f4d;
+  background-color: #fff;
+  border: 1px solid #e74f4d;
+}
+.posters .posters-bottom .bottom-mid {
+  width: 34%;
+  height: inherit;
+  position: absolute;
+  left: 33%;
+}
+.posters .posters-bottom .bottom-mid p {
+  color: #000;
+}
+.posters .posters-bottom .bottom-mid p::after {
+  border: 1px solid #c7c7c7;
+}
+.posters .posters-bottom .bottom-mid .more {
+  color: #e74f4d;
+  border: 1px solid #e74f4d;
+}
+.posters .posters-bottom .bottom-mid .more:hover {
+  transition: 0.3s;
+  color: #fff;
+  background-color: #e46669;
+  border: 1px solid #fff;
+}
+.posters .posters-bottom .bottom-right {
+  width: 33%;
+  height: inherit;
+  float: right;
+  position: relative;
+  background: url("../img/posters-bg2.png") no-repeat;
+  background-size: 100%;
+}
+.posters .posters-bottom .bottom-right::after {
+  content: "";
+  margin-top: -10px;
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  border-style: solid;
+  border-width: 13px 0px 13px 25px;
+  border-color: transparent #fff transparent;
+}
+.application {
+  height: 750px;
+}
+.application .title {
+  width: 420px;
+  text-align: center;
+  position: relative;
+  left: 50%;
+  margin-left: -210px;
+  padding-top: 115px;
+}
+.application .title h2 {
+  font-size: 21px;
+}
+.application .title h2::after {
+  content: "";
+  display: block;
+  width: 30px;
+  position: relative;
+  left: 50%;
+  margin: 10px auto 20px -15px;
+  border: 1px solid #e74f4d;
+}
+.application .title p {
+  font-size: 12px;
+  line-height: 18px;
+  color: #a9a9a9;
+}
+.application .application-form {
+  width: 100%;
+  height: 550px;
+  overflow: auto;
+  padding: 0px 8%;
+  box-sizing: border-box;
+}
+.application .application-form .terms {
+  width: 30%;
+  float: left;
+  padding-top: 100px;
+  padding-right: 70px;
+}
+.application .application-form .terms .term-item {
+  position: relative;
+}
+.application .application-form .terms .term-item h3 {
+  font-size: 14px;
+  opacity: 0.8;
+}
+.application .application-form .terms .term-item p {
+  font-size: 12px;
+  color: #a9a9a9;
+  line-height: 20px;
+  margin: 25px 0px 50px 0px;
+}
+.application .application-form .terms .term-item .more {
+  color: #a9a9a9;
+  font-size: 4px;
+  position: absolute;
+  right: 0px;
+  bottom: -15px;
+}
+.application .application-form .terms .term-item .more::before {
+  content: "";
+  display: inline-block;
+  width: 15px;
+  height: 8px;
+  background: url("../img//more.png") no-repeat;
+}
+.application .application-form .form {
+  width: 63%;
+  float: right;
+  padding-top: 100px;
+}
+.application .application-form .form .form-grounp {
+  width: 48%;
+  height: 40px;
+  margin-bottom: 15px;
+}
+.application .application-form .form .form-grounp:nth-child(odd) {
+  float: left;
+}
+.application .application-form .form .form-grounp:nth-child(even) {
+  float: right;
+}
+.application .application-form .form .form-grounp input {
+  width: 100%;
+  border: none;
+  font-size: 14px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: #ededef;
+}
+.application .application-form .form .textarea {
+  width: 100%;
+  height: 120px;
+}
+.application .application-form .form .textarea textarea {
+  width: 100%;
+  height: inherit;
+  border: none;
+  font-size: 14px;
+  line-height: 40px;
+  box-sizing: border-box;
+  padding-left: 20px;
+  background-color: #ededef;
+  resize: none;
+}
+.application .application-form .form .submit {
+  width: 100%;
+  height: 40px;
+}
+.application .application-form .form .submit input {
+  width: 100%;
+  height: inherit;
+  border: none;
+  background-color: #ededef;
 }
