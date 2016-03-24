@@ -1,3 +1,97 @@
 .search {
-  
+  height: 340px;
+  background: url('../img/search-bg.png') no-repeat;
+  background-size: 100%;
+  position: relative;
+  .cover {
+    width: 100%;
+    height: inherit;
+    background-color: #f00;
+    opacity: 0.1;
+  }
+
+  .content {
+    position: absolute;
+    top: 45px;
+    left: -175px;
+    margin-left: 50%;
+    color: #fff;
+    text-align: center;
+    .title {
+      font-size: 24px;
+      margin: 10px 0px;
+      &::after {
+        content: "";
+        width: 50px;
+        display: block;
+        border-bottom: 2px solid;
+        position: absolute;
+        left: 150px;
+        top: 42px;
+      }
+    }
+    .tip {
+      font-size: 13px;
+      margin-top: 30px;
+    }
+  }
+
+  .select-area {
+    overflow: visible;
+    position: absolute;
+    top: 170px;
+    margin-left: 50%;
+    left: -513px;
+
+    .select {
+      float: left;
+      width: 228px;
+      height: 33px;
+      line-height: 32px;
+      font-size: 14px;
+      color: #a7a7a7;
+      background: #fff url(../img/select-bg.png) no-repeat scroll right 10px center;
+      margin-right: 30px;
+      border: 1px solid #fff;
+      span {
+        margin-left: 10px;
+      }
+      .option {
+        width: 228px;
+        display: none;
+        list-style: none;
+        position: relative;
+        top: 2px;
+        left: -1px;
+        color: #787878;
+        background-color: #e2e2e2;
+        z-index: 10;
+        span {
+          margin-left: 30px;
+        }
+        li:hover {
+          color: #fff;
+          background: #bf4f49 url(../img/selected.png) no-repeat left 10px center;
+        }
+      }
+      &:hover {
+        border: 1px solid #bf4f49;
+        border-bottom: 1px solid #e2e2e2;
+        .option {
+          display: block;
+          border: 1px solid #bf4f49;
+          border-top: 1px solid #e2e2e2;
+        }
+      }
+    }
+
+    .btn {
+      width: 230px;
+      height: 35px;
+      border: none;
+      color: #fff;
+      background-color: #bf4f49;
+      letter-spacing: 20px;
+    }
+  }
 }
