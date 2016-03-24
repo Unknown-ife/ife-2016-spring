@@ -1,0 +1,219 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  min-width: 1100px;
+  margin: 0 auto;
+}
+.nav {
+  height: 60px;
+  width: auto;
+  margin-top: 10px;
+}
+.nav img {
+  width: 30px;
+  height: 32px;
+  margin: 11px 0 0 50px;
+}
+.nav span {
+  font-size: 24px;
+  position: relative;
+  top: -10%;
+}
+.nav .leftList {
+  float: right;
+  display: table;
+}
+.nav .leftList li {
+  float: left;
+  margin-right: 48px;
+  width: 64px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+.nav .leftList li a {
+  color: #727373;
+}
+.nav .leftList li:hover {
+  border-bottom: 3px solid #e74f47;
+}
+.nav .leftList li:hover a {
+  height: 60px;
+  color: #e74f47;
+}
+.nav .leftList li i {
+  margin-right: 5px;
+}
+.container {
+  margin-top: 3px;
+}
+.container .firstSelect {
+  background-image: url("../img/bg1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 691px;
+}
+.container .con {
+  width: 480px;
+  height: 274px;
+  position: absolute;
+  top: 30%;
+  left: 11%;
+  color: #fff;
+  font-family: 'Microsoft Yahei', 'Helvetica Neue', Helvetica, Tahoma, sans-serif;
+}
+.container .con h1 {
+  font-weight: normal;
+  font-size: 59px;
+}
+.container .con p {
+  font-weight: 100;
+  font-size: 21px;
+  line-height: 40px;
+}
+.container .con .btn {
+  width: 333px;
+  height: 63px;
+  background: #e74f47;
+  margin-top: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .con .btn a {
+  display: inline-block;
+  color: #fff;
+  font-size: 29px;
+}
+.container .secondSelect {
+  height: 250px;
+}
+.container .secondSelect .imgBlock {
+  text-align: center;
+  margin: 45px 0 0;
+  float: left;
+  width: 25%;
+}
+.container .secondSelect .imgBlock p {
+  margin-top: 53px;
+  color: #484a48;
+}
+.container .secondSelect :not(:last-child) p {
+  border-right: 2px solid #484a48;
+}
+.container .thirdSelect {
+  position: relative;
+  height: 365px;
+  text-align: center;
+  background: #ededec;
+}
+.container .thirdSelect img {
+  margin: 80px auto 45px;
+}
+.container .thirdSelect h1 {
+  font: 54px "SimHei";
+  color: #867e7a;
+}
+.container .fourSelect {
+  background-image: url("../img/bg2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 343px;
+  color: #fff;
+  text-align: center;
+}
+.container .fourSelect h1 {
+  padding-top: 62px;
+}
+.container .fourSelect p {
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 100;
+}
+.container .fourSelect .lineStyle {
+  width: 37px;
+  height: 2px;
+  background: #fff;
+  margin: 10px auto;
+}
+.container .fourSelect .search {
+  display: inline-block;
+}
+.container .fourSelect .search select {
+  width: 230px;
+  height: 36px;
+  margin: 50px 28px 0 0;
+  border: solid 1px #fff;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: url("../img/p5.png") no-repeat scroll 97% center;
+  background-color: #fff;
+  padding: 0 14px 0 6px;
+  color: #a8aaaa;
+}
+.container .fourSelect .search select option {
+  height: 28px;
+  padding: 10px 0 0 30px;
+  background-color: #e3e3e4;
+  color: #666;
+}
+.container .fourSelect .search .searchBtn {
+  width: 242px;
+  height: 36px;
+  background: #e74f47;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+}
+.container .fifthSection {
+  height: 602px;
+  width: 100%;
+  background: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.container .fifthSection p {
+  font-size: 12px;
+  margin: 11px 0 8px 0;
+  color: #786f6c;
+}
+.container .fifthSection h4 {
+  font-style: normal;
+  margin-top: 17px;
+}
+.container .fifthSection img {
+  padding: 13px 10px;
+  width: 200px;
+  height: 310px;
+  border: 1px solid #d9d5d4;
+  box-shadow: 1px 1px 5px #d9d5d4;
+}
+.container .fifthSection .p6 {
+  margin-right: 42px;
+}
+.container .fifthSection .p6 h4 {
+  font-size: 16px;
+  color: #323333;
+}
+.container .fifthSection .p7 h4 {
+  letter-spacing: 30px;
+  font-size: 27px;
+  margin-left: 23px;
+}
+.container .fifthSection .p8 {
+  margin-left: 33px;
+}
+.container .fifthSection .p9 {
+  margin-left: 36px;
+}
