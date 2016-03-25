@@ -21,6 +21,10 @@ ife 2016 Spring Unknown (,,・ω・,,)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_06/ahonn)
 / [yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_06/yzzting)
 
+- Task 7: [实现常见的技术产品官网的页面架构及样式布局](http://ife.baidu.com/task/detail?taskId=7)
+/ [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_07/ahonn)
+/ [yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_07/yzzting)
+
 ## 第二阶段
 - Task 13: [零基础JavaScript编码（一）](http://ife.baidu.com/task/detail?taskId=13)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/02/task_13/ahonn/index.html)
