@@ -359,14 +359,13 @@ header .login a {
   line-height: 30px;
   color: #c9c9c9;
 }
-.posters .posters-top .top-right .content a {
+.posters .posters-top .top-right .content .more {
+  width: 105px;
+  height: 30px;
+  display: block;
   text-align: center;
   font-size: 14px;
   color: #e46669;
-}
-.posters .posters-top .top-right .content a .more {
-  width: 105px;
-  height: 30px;
   margin-left: 50%;
   margin-top: 45px;
   position: relative;
@@ -374,7 +373,7 @@ header .login a {
   line-height: 30px;
   border: 1px solid #e46669;
 }
-.posters .posters-top .top-right .content a .more:hover {
+.posters .posters-top .top-right .content .more:hover {
   transition: 0.3s;
   color: #fff;
   background-color: #e46669;
@@ -579,7 +578,7 @@ header .login a {
   font-size: 14px;
   line-height: 40px;
   box-sizing: border-box;
-  padding-left: 20px;
+  padding-left: 15px;
   background-color: #ededef;
 }
 .application .application-form .form .textarea {
@@ -591,9 +590,9 @@ header .login a {
   height: inherit;
   border: none;
   font-size: 14px;
-  line-height: 40px;
+  line-height: 20px;
   box-sizing: border-box;
-  padding-left: 20px;
+  padding: 10px 0px 10px 15px;
   background-color: #ededef;
   resize: none;
 }
@@ -606,4 +605,67 @@ header .login a {
   height: inherit;
   border: none;
   background-color: #ededef;
+}
+footer .contact {
+  width: 100%;
+  height: 360px;
+  background-color: #32353e;
+}
+footer .contact .content {
+  width: 40%;
+  margin: 0px 30%;
+  padding-top: 80px;
+  color: #fff;
+  text-align: center;
+}
+footer .contact .content h2 {
+  font-size: 22px;
+  line-height: 40px;
+}
+footer .contact .content p {
+  width: 90%;
+  margin: 0px 5%;
+  font-size: 12px;
+  line-height: 20px;
+}
+footer .contact .content .contact-form {
+  margin: 30px 0px;
+}
+footer .contact .content .contact-form input {
+  width: 85%;
+  height: 40px;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+footer .contact .content .contact-form button {
+  width: 13%;
+  height: 40px;
+  border: none;
+  position: relative;
+  left: -5px;
+  color: #fff;
+  background-color: #6f7178;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+footer .contact .content .ico img {
+  margin: 0px 15px;
+}
+footer .back2top {
+  width: 100%;
+  height: 60px;
+  background-color: #303039;
+}
+footer .back2top p {
+  color: #fff;
+  font-size: 12px;
+  float: left;
+  margin: 30px 0px 0px 95px;
+}
+footer .back2top a {
+  display: block;
+  float: right;
+  font-size: 12px;
+  color: #fff;
+  margin: 30px 95px 0px 0px;
 }
