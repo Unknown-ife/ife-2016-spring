@@ -361,7 +361,7 @@ body {
   height: 518px;
   background-image: url("../img/p11.png");
   background-size: 100% 100%;
-  margin-left: -8px;
+  margin-left: -5px;
 }
 .container .sixthSection .bottomPhoto .rightPhoto .triangle-right {
   position: absolute;
@@ -392,7 +392,8 @@ body {
 }
 .container .seventhSection .formBlock {
   height: 471px;
-  width: 63%;
+  min-width: 1100px;
+  display: table;
   margin: 0 auto;
 }
 .container .seventhSection .formBlock a {
@@ -436,9 +437,10 @@ body {
   position: relative;
 }
 .container .seventhSection .formBlock .rightForm {
-  width: 66%;
+  width: 700px;
   height: 365px;
   float: right;
+  overflow: hidden;
 }
 .container .seventhSection .formBlock .rightForm label {
   position: relative;
@@ -452,7 +454,7 @@ body {
 }
 .container .seventhSection .formBlock .rightForm input {
   border: none;
-  width: 320px;
+  width: 275px;
   height: 45px;
   background: #ededee;
   margin: 6px 8px;
