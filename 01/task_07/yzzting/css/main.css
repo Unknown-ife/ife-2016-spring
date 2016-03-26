@@ -41,7 +41,7 @@ body {
   float: left;
   margin-right: 48px;
   width: 64px;
-  height: 60px;
+  height: 62px;
   line-height: 60px;
   text-align: center;
 }
@@ -298,11 +298,14 @@ body {
 .container .sixthSection .rightTitle ul li {
   width: 10px;
   height: 10px;
-  background: #ccc;
   border-radius: 10px;
   float: left;
   margin: 30px 12px 0 14px;
   cursor: pointer;
+  border: 1px solid #ccc;
+}
+.container .sixthSection .rightTitle ul li:first-child {
+  background: #ccc;
 }
 .container .sixthSection .bottomPhoto {
   width: 100%;
@@ -349,10 +352,10 @@ body {
 }
 .container .sixthSection .bottomPhoto .conTitle .moreLink {
   color: #e74f47;
-  border: 1px solid #e47f47;
+  border: 1px solid #e74f47;
 }
 .container .sixthSection .bottomPhoto .conTitle .moreLink:hover {
-  background: #e47f47;
+  background: #e74f47;
   color: #fff;
 }
 .container .sixthSection .bottomPhoto .rightPhoto {
@@ -493,10 +496,15 @@ body {
 }
 .container .eightSection .submitBtn {
   height: 40px;
-  width: 80px;
-  margin-left: -9px;
+  width: 120px;
+  margin-left: -8px;
   border: none;
-  background: #ccc;
+  background-color: #6f7178;
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 5px;
+  position: relative;
+  top: 1px;
 }
 .container .eightSection ul {
   display: flex;

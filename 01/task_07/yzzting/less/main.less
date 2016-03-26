@@ -40,7 +40,7 @@ body {
             float: left;
             margin-right: 48px;
             width: 64px;
-            height: 60px;
+            height: 62px;
             line-height: 60px;
             text-align: center;
             a {
@@ -297,11 +297,14 @@ body {
                 li {
                     width: 10px;
                     height: 10px;
-                    background: #ccc;
                     border-radius: 10px;
                     float: left;
                     margin: 30px 12px 0 14px;
                     cursor: pointer;
+                    border: 1px solid #ccc;
+                }
+                li:first-child {
+                    background: #ccc;
                 }
             }
         }
@@ -350,9 +353,9 @@ body {
                 }
                 .moreLink {
                     color: #e74f47;
-                    border: 1px solid #e47f47;
+                    border: 1px solid #e74f47;
                     &:hover {
-                        background: #e47f47;
+                        background: #e74f47;
                         color: #fff;
                     }
                 }
@@ -498,10 +501,15 @@ body {
         }
         .submitBtn {
             height: 40px;
-            width: 80px;
-            margin-left: -9px;
+            width: 120px;
+            margin-left: -8px;
             border: none;
-            background: #ccc;
+            background-color: #6f7178;
+            color: #fff;
+            font-size: 16px;
+            letter-spacing: 5px;
+            position: relative;
+            top: 1px;
         }
         ul {
             display: flex;
