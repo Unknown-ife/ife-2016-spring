@@ -37,3 +37,7 @@ ife 2016 Spring Unknown (,,・ω・,,)
 - Task 15: [零基础JavaScript编码（三）](http://ife.baidu.com/task/detail?taskId=15)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/02/task_15/ahonn/index.html)
 / [yzzting](http://unknown-ife.github.io/ife-2016-spring/02/task_15/yzzting/index.html)
+
+- Task 16: [零基础JavaScript编码（四）](http://ife.baidu.com/task/detail?taskId=16)
+/ [Ahonn](http://unknown-ife.github.io/ife-2016-spring/02/task_16/ahonn/index.html)
+/ [yzzting](http://unknown-ife.github.io/ife-2016-spring/02/task_16/yzzting/index.html)
