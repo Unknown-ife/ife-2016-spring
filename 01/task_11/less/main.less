@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+html {
+    font-family: "微软雅黑";
+}
+body {
+    background: #F5F5F5;
+}
+header {
+    background: #80cbd1;
+    height: 3rem;
+    width: 100%;
+    line-height: 3rem;
+    .nav {
+        position: relative;
+        font-weight: bold;
+        text-align: center;
+        display: block;
+        a {
+            font-size: 1.0rem;
+            letter-spacing: 0.1rem;
+            display: inline-block;
+            position: absolute;
+            left: 1.02rem;
+        }
+        h1 {
+            color: #fff;
+            font-size: 1.2rem;
+        }
+    }
+    ul {
+        display: block;
+        li {
+            float: left;
+            width: 20%;
+            height: 3rem;
+            text-align: center;
+            a {
+                color: #aaa;
+            }
+        }
+        .nav_active {
+            border-bottom: 3px solid #80cbd1;
+        }
+    }
+}
+.container {
+    .firstSection {
+        img {
+            width: 100%;
+            height: 14rem;
+        }
+        .tags {
+            width: 100%;
+            position: relative;
+            ul {
+                display: flex;
+                flex-warp: nowrap;
+                justify-content: space-around;
+                height: 9rem;
+                li {
+                    display: inline-block;
+                    font-size: 1.2rem;
+                    width: 15%;
+                    margin-top: 1.5rem;
+                    text-align: center;
+                    font-size: 1.2rem;
+                    span {
+                        display: inline-block;
+                        text-align: center;
+                        width: 3rem;
+                        height: 3rem;
+                        background-color: #00C7D6;
+                        border-radius: 50%;
+                        position: relative;
+                        margin-bottom: 1.2rem;
+                        img {
+                            width: 50%;
+                            height: 50%;
+                            position: relative;
+                            top: 20%;
+                            text-align: center;
+                        }
+                    }
+                }
+            }
+        }
+        .sub {
+            ul {
+                display: flex;
+                align-items: flex-end;
+                li {
+                    width: 33%;
+                    margin: 1rem 0;
+                    height: auto;
+                    text-align: center;
+                    img {
+                        display: inline-block;
+                        width: 60%;
+                        height: auto;
+                    }
+                }
+            }
+            ul li:not(:last-child) {
+                border-right: 1px solid #dfdfdf;
+            }
+        }
+    }
+}
+.tags::after {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 90%;
+    left: 5%;
+    background: #ccc;
+}
