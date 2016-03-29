@@ -15,6 +15,11 @@ html {
 body {
   background: #F5F5F5;
 }
+.lineStyle {
+  width: 100%;
+  height: 2px;
+  background: #dfdfdf;
+}
 header {
   background: #80cbd1;
   height: 3rem;
@@ -66,9 +71,13 @@ header ul .nav_active {
   position: relative;
 }
 .container .firstSection .tags ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   flex-warp: nowrap;
-  justify-content: space-around;
+  -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+          justify-content: space-around;
   height: 9rem;
 }
 .container .firstSection .tags ul li {
@@ -96,8 +105,12 @@ header ul .nav_active {
   text-align: center;
 }
 .container .firstSection .sub ul {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  align-items: flex-end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
 }
 .container .firstSection .sub ul li {
   width: 33%;
@@ -123,6 +136,7 @@ header ul .nav_active {
 }
 .secondSection {
   background: #fff;
+  margin-bottom: 2rem;
 }
 .secondSection .block {
   padding: 0 0.5rem;
@@ -132,36 +146,116 @@ header ul .nav_active {
   padding: 0.5rem 1rem;
 }
 .secondSection .block .content {
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .secondSection .block .content .bor {
   border: 1px solid #FFB832;
 }
 .secondSection .block .content li {
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: flex-end;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
   margin: 1rem 0;
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
 }
 .secondSection .block .content li img {
-  width: 8rem;
-  height: 8rem;
+  width: 6rem;
+  height: 6rem;
 }
 .secondSection .block .content li .text {
   width: 90%;
   height: 41%;
   text-align: center;
+  display: -webkit-flex;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
   background: #F8F8F8;
+  font-size: 0.5rem;
 }
-.secondSection .lineStyle {
+.thirdSection {
+  background: #fff;
   width: 100%;
-  height: 2px;
-  background: #dfdfdf;
+}
+.thirdSection .con {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  border-bottom: 2px solid #dfdfdf;
+}
+.thirdSection h4 {
+  font-size: 1rem;
+  font-weight: normal;
+}
+.thirdSection .leftImg {
+  display: inline-block;
+  padding: 0.5rem;
+  height: 5rem;
+  width: 7.5rem;
+}
+.thirdSection .leftImg img {
+  width: 100%;
+  height: 100%;
+}
+.thirdSection .titleBlock {
+  width: 50%;
+  padding: 0.5rem;
+}
+.thirdSection .titleBlock p {
+  margin-top: 1rem;
+  color: #646464;
+  font-size: 0.9rem;
+}
+.thirdSection .bottomBlock {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-align-content: space-between;
+      -ms-flex-line-pack: justify;
+          align-content: space-between;
+  padding: 0.5rem;
+  margin-bottom: 2rem;
+}
+.thirdSection .bottomBlock .threeBear {
+  float: left;
+  margin-top: 1rem;
+}
+.thirdSection .bottomBlock .threeBear img {
+  width: 32%;
+  height: 30%;
+}
+.thirdSection .bottomBlock p {
+  margin-top: 1rem;
+  color: #646464;
+  font-size: 0.9rem;
 }

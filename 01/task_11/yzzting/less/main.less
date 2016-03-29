@@ -15,6 +15,11 @@ html {
 body {
     background: #F5F5F5;
 }
+.lineStyle {
+    width: 100%;
+    height: 2px;
+    background: #dfdfdf;
+}
 header {
     background: #80cbd1;
     height: 3rem;
@@ -128,6 +133,7 @@ header {
 }
 .secondSection {
     background: #fff;
+    margin-bottom: 2rem;
     .block {
         padding: 0 0.5rem;
         h3 {
@@ -146,11 +152,11 @@ header {
                 align-items: flex-end;
                 display: flex;
                 margin: 1rem 0;
-                width: 8rem;
-                height: 8rem;
+                width: 6rem;
+                height: 6rem;
                 img {
-                    width: 8rem;
-                    height: 8rem;
+                    width: 6rem;
+                    height: 6rem;
                 }
                 .text {
                     width: 90%;
@@ -160,13 +166,63 @@ header {
                     justify-content: center;
                     align-items: center;
                     background: #F8F8F8;
+                    font-size: 0.5rem;
                 }
             }
         }
     }
-    .lineStyle {
-        width: 100%;
-        height: 2px;
-        background: #dfdfdf;
+}
+.thirdSection {
+    background: #fff;
+    width: 100%;
+    .con {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        border-bottom: 2px solid #dfdfdf;
+    }
+    h4 {
+        font-size: 1rem;
+        font-weight: normal;
+    }
+    .leftImg {
+        display: inline-block;
+        padding: 0.5rem;
+        height: 5rem;
+        width: 7.5rem;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+    .titleBlock {
+        width: 50%;
+        padding: 0.5rem;
+        p {
+            margin-top: 1rem;
+            color: #646464;
+            font-size: 0.9rem;
+        }
+    }
+    .bottomBlock {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: space-between;
+        padding: 0.5rem;
+        margin-bottom: 2rem;
+        .threeBear{
+            float: left;
+            margin-top: 1rem;
+            img{
+                width: 32%;
+                height: 30%;
+            }
+        }
+        p {
+            margin-top: 1rem;
+            color: #646464;
+            font-size: 0.9rem;
+        }
     }
 }
