@@ -374,6 +374,7 @@ header .login a {
   border: 1px solid #e46669;
 }
 .posters .posters-top .top-right .content .more:hover {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #fff;
   background-color: #e46669;
@@ -443,6 +444,7 @@ header .login a {
   border: 1px solid #fff;
 }
 .posters .posters-bottom .bottom-left .more:hover {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #e74f4d;
   background-color: #fff;
@@ -465,6 +467,7 @@ header .login a {
   border: 1px solid #e74f4d;
 }
 .posters .posters-bottom .bottom-mid .more:hover {
+  -webkit-transition: 0.3s;
   transition: 0.3s;
   color: #fff;
   background-color: #e46669;
