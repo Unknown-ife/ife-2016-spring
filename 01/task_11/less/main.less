@@ -55,6 +55,8 @@ header {
 }
 .container {
     .firstSection {
+        background: #fff;
+        margin-bottom: 2.5rem;
         img {
             width: 100%;
             height: 14rem;
@@ -123,4 +125,48 @@ header {
     width: 90%;
     left: 5%;
     background: #ccc;
+}
+.secondSection {
+    background: #fff;
+    .block {
+        padding: 0 0.5rem;
+        h3 {
+            color: #666666;
+            padding: 0.5rem 1rem;
+        }
+        .content {
+            display: flex;
+            justify-content: space-between;
+            .bor {
+                border: 1px solid #FFB832;
+            }
+            li {
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: flex-end;
+                display: flex;
+                margin: 1rem 0;
+                width: 8rem;
+                height: 8rem;
+                img {
+                    width: 8rem;
+                    height: 8rem;
+                }
+                .text {
+                    width: 90%;
+                    height: 41%;
+                    text-align: center;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background: #F8F8F8;
+                }
+            }
+        }
+    }
+    .lineStyle {
+        width: 100%;
+        height: 2px;
+        background: #dfdfdf;
+    }
 }

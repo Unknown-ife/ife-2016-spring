@@ -53,6 +53,10 @@ header ul li a {
 header ul .nav_active {
   border-bottom: 3px solid #80cbd1;
 }
+.container .firstSection {
+  background: #fff;
+  margin-bottom: 2.5rem;
+}
 .container .firstSection img {
   width: 100%;
   height: 14rem;
@@ -116,4 +120,48 @@ header ul .nav_active {
   width: 90%;
   left: 5%;
   background: #ccc;
+}
+.secondSection {
+  background: #fff;
+}
+.secondSection .block {
+  padding: 0 0.5rem;
+}
+.secondSection .block h3 {
+  color: #666666;
+  padding: 0.5rem 1rem;
+}
+.secondSection .block .content {
+  display: flex;
+  justify-content: space-between;
+}
+.secondSection .block .content .bor {
+  border: 1px solid #FFB832;
+}
+.secondSection .block .content li {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  display: flex;
+  margin: 1rem 0;
+  width: 8rem;
+  height: 8rem;
+}
+.secondSection .block .content li img {
+  width: 8rem;
+  height: 8rem;
+}
+.secondSection .block .content li .text {
+  width: 90%;
+  height: 41%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #F8F8F8;
+}
+.secondSection .lineStyle {
+  width: 100%;
+  height: 2px;
+  background: #dfdfdf;
 }
