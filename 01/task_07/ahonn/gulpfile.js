@@ -6,7 +6,7 @@ var autoprefixer = require('gulp-autoprefixer')
 gulp.task('less', function () {
     gulp.src('./less/style.less')
         .pipe(less())
-        .pipe(autoprefixer({browsers: ['> 1%', 'last 3 versions', 'iOS >= 6', 'android 4']}))
+        .pipe(autoprefixer('last 3 versions'))
         .pipe(gulp.dest('./css'));
 });
 
