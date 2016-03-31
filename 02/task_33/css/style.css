@@ -4,16 +4,7 @@
     display: inline-block;
     float: left;
 }
-.inputBlock > * {
-    margin: 20px 0;
-    cursor: pointer;
-    width: 10%;
-    height: 10%;
-    border-radius: 50%;
-    background: #000;
-    text-align: center;
-    color: #fff;
-}
+
 /*.left {
     width: 0;
     height: 0;
@@ -63,12 +54,11 @@ tr:nth-child(n+2)>td:nth-child(n+2) {
     left: 0px;
 }
 .box {
-    width: 79%;
-    height: 100%;
+    width: 40px;
+    height: 50px;
     background: #f00;
     border-left: 10px solid blue;
     position: absolute;
-    top: 0px;
 }
 /*.boxPos{
     width: 79%;
