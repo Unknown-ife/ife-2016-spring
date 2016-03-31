@@ -163,14 +163,14 @@ header ul .nav_active {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-align-items: flex-end;
-      -ms-flex-align: end;
-          align-items: flex-end;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   margin: 1rem 0;
-  width: 6rem;
+  width: 50%;
   height: 6rem;
 }
 .secondSection .block .content li img {
@@ -180,7 +180,6 @@ header ul .nav_active {
 .secondSection .block .content li .text {
   width: 90%;
   height: 41%;
-  text-align: center;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;

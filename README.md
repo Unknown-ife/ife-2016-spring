@@ -17,13 +17,16 @@ ife 2016 Spring Unknown (,,・ω・,,)
 - Task 5: [零基础HTML及CSS编码（二）](http://ife.baidu.com/task/detail?taskId=5)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_05/ahonn)
 
-- Task 6: [通过HTML及CSS模拟报纸排版）](http://ife.baidu.com/task/detail?taskId=6)
+- Task 6: [通过HTML及CSS模拟报纸排版](http://ife.baidu.com/task/detail?taskId=6)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_06/ahonn)
 / [yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_06/yzzting)
 
 - Task 7: [实现常见的技术产品官网的页面架构及样式布局](http://ife.baidu.com/task/detail?taskId=7)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_07/ahonn)
 / [yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_07/yzzting)
+
+- Task 7: [移动Web页面布局实践](http://ife.baidu.com/task/detail?taskId=11)
+/ [yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_11/yzzting)
 
 ## 第二阶段
 - Task 13: [零基础JavaScript编码（一）](http://ife.baidu.com/task/detail?taskId=13)

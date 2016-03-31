@@ -1,0 +1,80 @@
+.inputBlock {
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    float: left;
+}
+.inputBlock > * {
+    margin: 20px 0;
+    cursor: pointer;
+    width: 10%;
+    height: 10%;
+    border-radius: 50%;
+    background: #000;
+    text-align: center;
+    color: #fff;
+}
+/*.left {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 40px solid red;
+    border-bottom: 20px solid transparent;
+}
+.right {
+    width: 0;
+    height: 0;
+    border-top: 20px solid transparent;
+    border-right: 20px solid red;
+    border-bottom: 40px solid transparent;
+}
+.top {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 40px solid red;
+}
+.bottom {
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 40px solid red;
+}*/
+table {
+    margin: 0 auto;
+    display: inline-block;
+    position: relative;
+}
+div, td {
+    margin: 0px;
+    padding: 0px;
+}
+td {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+tr:nth-child(n+2)>td:nth-child(n+2) {
+    border: 1px solid #000;
+    margin: -1px;
+    position: relative;
+    left: 0px;
+}
+.box {
+    width: 79%;
+    height: 100%;
+    background: #f00;
+    border-left: 10px solid blue;
+    position: absolute;
+    top: 0px;
+}
+/*.boxPos{
+    width: 79%;
+    height: 100%;
+    background: #f00;
+    border-left: 10px solid blue;
+    position: absolute;
+    top: 0px;
+}*/
