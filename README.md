@@ -25,6 +25,9 @@ ife 2016 Spring Unknown (,,・ω・,,)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_07/ahonn)
 / [yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_07/yzzting)
 
+- Task 8: [响应式网格（栅格化）布局](http://ife.baidu.com/task/detail?taskId=8)
+/ [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_08/ahonn)
+
 - Task 11: [移动Web页面布局实践](http://ife.baidu.com/task/detail?taskId=11)
 / [yzzting](http://unknown-ife.github.io/ife-2016-spring/01/task_11/yzzting)
 
