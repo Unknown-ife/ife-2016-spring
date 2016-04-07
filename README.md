@@ -47,3 +47,6 @@ ife 2016 Spring Unknown (,,・ω・,,)
 - Task 16: [零基础JavaScript编码（四）](http://ife.baidu.com/task/detail?taskId=16)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/02/task_16/ahonn/index.html)
 / [yzzting](http://unknown-ife.github.io/ife-2016-spring/02/task_16/yzzting/index.html)
+
+- Task 29: [表单（一）单个表单项的检验](http://ife.baidu.com/task/detail?taskId=29)
+/ [Ahonn](http://unknown-ife.github.io/ife-2016-spring/02/task_29/ahonn/index.html)
