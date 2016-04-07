@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task_30</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: '微软雅黑';
+            font-size: 1rem;
+        }
+
+        .con {
+            width: 430px;
+            margin: 0 auto;
+        }
+        .wapper{
+            text-align: right;
+            margin: 30px 0;
+        }
+        label {
+            margin-right: 30px;
+        }
+
+        .text {
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #a8a8a8;
+            padding-left: 10px;
+        }
+
+        .check {
+            float: right;
+            background-color: #2F79BA;
+            border: 2px solid white;
+            color: white;
+            border-radius: 6px;
+            width: 80px;
+            height: 45px;
+            margin-top: 30px;
+        }
+
+        #tip {
+            text-align: center;
+            color: #a8a8a8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <div class="wapper">
+            <label>名称</label>
+            <input type="text" class="text" id="nameInp">
+            <p id="tip"></p>
+        </div>
+        <div class="wapper">
+            <label>密码</label>
+            <input type="text" class="text" id="pawInp">
+            <p id="tip"></p>
+        </div>
+        <div class="wapper">
+            <label>密码确认</label>
+            <input type="text" class="text" id="rePawInp">
+            <p id="tip"></p>
+        </div>
+        <div class="wapper">
+            <label>手机</label>
+            <input type="text" class="text" id="numInp">
+            <p id="tip"></p>
+        </div>
+        <div class="wapper">
+            <label>邮箱</label>
+            <input type="email" class="text" id="emailInp">
+            <p id="tip"></p>
+            <button class="check" id="btn">验证</button>
+        </div>
+</body>
+
+<script src="js/main.js"></script>
+
+</html>

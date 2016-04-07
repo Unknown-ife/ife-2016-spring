@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task_29</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: '微软雅黑';
+            font-size: 1rem;
+        }
+
+        .con{
+            margin: 0 auto;
+        }
+
+        label {
+            margin-right: 20px;
+        }
+
+        .text {
+            width: 300px;
+            height: 40px;
+            border-radius: 5px;
+            border: 1px solid #a8a8a8;
+            padding-left: 10px;
+        }
+
+        .check {
+            background-color: #2F79BA;
+            border: 2px solid white;
+            color: white;
+            border-radius: 6px;
+            width: 80px;
+            height: 45px;
+        }
+
+        #tip {
+            position: relative;
+            left: 4%;
+            color: #a8a8a8;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="con">
+        <label>名称</label>
+        <input type="text" class="text" id="inp">
+        <button class="check" id="btn">验证</button>
+        <p id="tip">必填，长度为4~16个字符</p>
+    </div>
+</body>
+<script src="js/main.js"></script>
+
+</html>
