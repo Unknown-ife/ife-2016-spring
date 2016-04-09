@@ -4,13 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <title>task_31</title>
+    <style>
+        div{
+            display: none;
+            position: absolute;
+        }
+    </style>
 </head>
 
 <body>
     <form action class="formStyle">
-        <input type="radio" name="stu">
+        <input type="radio" name="stu" id="inStu">
         <label for="stu">在校生</label>
-        <div class="stuBlock">
+        <div>
             <select class="stuSelect" id="stuSelect">
                 <option value="a">广东</option>
                 <option value="b">浙江</option>
@@ -20,9 +26,13 @@
             <select class="citySelect" id="citySelect">
             </select>
         </div>
-        <input type="radio" name="word">
+        <input type="radio" name="stu" id="outStu">
         <label for="word">非在校生</label>
+        <div>
+            <span>就业单位</span>
+            <input type="text" placeholder="输入就业单位">
+        </div>
     </form>
 </body>
-
+<script src="js/main.js" charset="utf-8"></script>
 </html>
