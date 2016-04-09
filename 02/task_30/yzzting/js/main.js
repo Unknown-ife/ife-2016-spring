@@ -107,7 +107,7 @@
     }
 
     function check() {
-        if (blurNameCheck() && blurPasswordCheck() && blurRepawCheck() && blurNumCheck() && blurEmailCheck()) {
+        if (blurNameCheck() & blurPasswordCheck() & blurRepawCheck() & blurNumCheck() & blurEmailCheck()) {
             alert('全部填写正确!');
         } else {
             alert('有错误!');
