@@ -8,6 +8,7 @@ ife 2016 Spring Unknown (,,・ω・,,)
 
 - Task 2: [零基础HTML及CSS编码（一）](http://ife.baidu.com/task/detail?taskId=2)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_02/ahonn)
+/ [Georginaaaa](http://unknown-ife.github.io/ife-2016-spring/01/task_02/Georginaaaa)
 
 - Task 3: [三栏式布局](http://ife.baidu.com/task/detail?taskId=3)
 / [Ahonn](http://unknown-ife.github.io/ife-2016-spring/01/task_03/ahonn)
