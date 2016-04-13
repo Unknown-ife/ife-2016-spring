@@ -1,0 +1,33 @@
+.form {
+  margin: 30px;
+  width: 600px;
+}
+
+.form .isStudent {
+  padding: 10px;
+}
+
+.form .isStudent label {
+  display: inline-block;
+  width: 20%;
+}
+
+.form .school-form span,
+.form .address-form span {
+  display: inline-block;
+  margin: 10px;
+}
+
+.form .location,
+.form .school {
+  display: inline-block;
+  width: 15%;
+  margin-right: 20px;
+}
+
+.form .address-form .address {
+  display: inline-block;
+  width: 30%;
+  border-radius: 2px;
+  border: 1px solid #aaa;
+}
