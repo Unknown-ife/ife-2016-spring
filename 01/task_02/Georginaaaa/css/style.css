@@ -1,55 +1,55 @@
 body{
 	margin:0;
 	padding:0;
-	background-color:rgb:(220,220,220)
+	background-color:rgb(220,220,220)
 }
 
 header{
-	background-color: :rgb(7,103,200);
-	height: :60px;
+	background-color:rgb(7,103,200);
+	height:60px;
 }
 
-header a, a:acitve{
+header a, a:active{
 	color: #fff;
 	text-decoration: none;
 }
 
 .logo{
-	float: :left;
+	float:left;
 	padding: 0px 40px;
-	font-size: :40px;
+	font-size:40px;
 	font-family: cursive;,LiSu,sans-serif;
 }
 
 .nav ul{
-	float: :right;
+	float:right;
 	font-size: 14px;
-	margin: :0px 40px;
-	line-height: :60px;
+	margin:0px 40px;
+	line-height:60px;
 }
 
 .nav li{
 	margin:0px 10px;
-	display: :inline-block;
+	display:inline-block;
 }
 
 .post, .pic, .sidebar{
-	width: :90%;
+	width:90%;
 	padding: 30px;
 	margin: 20px auto;
 	background-color:white;
 	border:thin solid rgb(203,203,203);
-	box-shadow: :2px 2px 3px rgb(170,170,170);
+	box-shadow:2px 2px 3px rgb(170,170,170);
 }
 
 .post .subtitile{
-	font-size: :18px;
-	color: :rgb(121,124,128);
+	font-size:18px;
+	color:rgb(121,124,128);
 }
 
 .post .post-info{
-	font-size: :14px;
-	color: :rgb(121,124,128);
+	font-size:14px;
+	color:rgb(121,124,128);
 }
 
 .post .content p{
@@ -57,7 +57,7 @@ header a, a:acitve{
 }
 
 .post .content ul{
-	list-style-type: :none;
+	list-style-type:none;
 }
 
 .post .content:  ul li{
@@ -65,9 +65,9 @@ header a, a:acitve{
 }
 
 .post .content:  table{
-	width: :100%;
+	width:100%;
 	font-size: 13px;
-	border-collapse: collapse;;
+	border-collapse: collapse;
 	border:solid 1px rgb(170,170,170);
 }
 
@@ -75,14 +75,14 @@ header a, a:acitve{
 	background-color: rgb(170,170,170);
 }
  
- .post .content:  tr th{
+ .post .content  tr th{
  	padding: 5px;
 	text-align: left;
 	color: rgb(255,255,255);
 	background-color: rgb(18,19,17);
 
- .post  .content tr td{
-	padding:5px;
+ .post .content  tr td {
+	padding: 5px;
  }
 
  .pic .pic-item{
@@ -142,9 +142,10 @@ header a, a:acitve{
 }
 
 footer{
-	display: :block;
+	display:block;
 	height: 60px;
-	color: rgb(0,0,0);
+	color: rgb(255,255,255);
+	background-color:rgb(0,0,0);
 }
 
 footer p{
