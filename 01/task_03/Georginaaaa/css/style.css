@@ -1,0 +1,70 @@
+.container{
+	margin: 20ox;
+	padding:20px;
+	position: relative;
+	border:1px solid #999;
+	background-color:#eee;
+}
+
+.clearfix:before,
+.clearfix:after{
+	content: "";
+	display: table;
+}
+
+.clearfix:after{
+	clear:both;
+}
+
+.clearfix{
+	*zoom:1;
+}
+
+.logo{
+	width: 200px;
+	float: left;
+	position: relative;
+	border:1px solid #999;
+	background-color: #eee;
+}
+
+.logo img{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+}
+
+.logo .name{
+	margin:0px;
+	font-size: 14px;
+	top:20px;
+	left:120px;
+	position: absolute;
+}
+
+.section{
+	position: absolute;
+	left: 240px;
+	right: 160px;
+	margin: 0px 10px;
+	padding: 20px;
+	border:1px solid #999;
+	background-color: #fff;
+}
+
+.member{
+	float:right;
+	border:1px solid #999;
+	background-color: #fff;
+}
+
+.member .member-logo{
+	margin:20px;
+}
+
+.member .member-logo img{
+	width: 80px;
+	height: 80px;
+	border:1px solid #999;
+}
